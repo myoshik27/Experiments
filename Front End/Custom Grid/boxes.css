@@ -23,8 +23,8 @@
     float: left;
     position: relative;
     min-height: 1px;
-    /*padding-right: 15px;
-    padding-left: 15px;*/
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .col-1{ width: 16.66%; }
 .col-2{ width: 33.33%; }
@@ -39,11 +39,11 @@
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
- background-color: #FFC2C2; 
- padding: 0;
+ /*background-color: #FFC2C2; */
+ /*padding: 0 1.6%;*/
  margin: 0;
  text-align: center; 
- color: white; 
+ /*color: white; */
 }
 
 @media all and (max-width:800px){

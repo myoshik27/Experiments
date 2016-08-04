@@ -1,0 +1,22 @@
+.boxes {
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.box {
+	width: 400px;
+	height: 375px;
+	margin: 0 auto; /* horizontal center */
+	margin-bottom: 15px;
+	background-color: red;
+	text-align: center;
+}
+
+.vertical-center-parent {
+	display: table;
+}
+
+.vertical-center-child {
+	display: table-cell;
+	vertical-align: middle;
+}
